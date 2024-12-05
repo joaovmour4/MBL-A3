@@ -3,7 +3,7 @@ import React from 'react'
 import { AppContext } from '../contexts/Context'
 
 export default function Description() {
-  const { sharedState, setSharedState } = React.useContext(AppContext)
+  const { sharedState } = React.useContext(AppContext)
   const text = sharedState.moeda === 'dolar' ? 'dólar americano' : 'euro'
 
   return (

@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import CentralImg from './components/CentralImg'
-import Description from './components/Description'
-import Value from './components/Value'
-import Button from './components/Button'
-import { AppProvider } from './contexts/Context'
-
+import CentralImg from './app/components/CentralImg'
+import Description from './app/components/Description'
+import Value from './app/components/Value'
+import Button from './app/components/Button'
+import { AppProvider } from './app/contexts/Context'
 export default function index() {
   return (
     <AppProvider>

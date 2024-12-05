@@ -3,11 +3,7 @@ import React from 'react'
 import { AppContext } from '../contexts/Context'
 
 export default function Value() {
-  const { sharedState, setSharedState } = React.useContext(AppContext)
-
-  React.useEffect(()=> {
-
-  }, [sharedState.moeda])
+  const { sharedState } = React.useContext(AppContext)
 
   return (
     <View>
